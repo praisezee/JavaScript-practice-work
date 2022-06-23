@@ -1,0 +1,55 @@
+div{
+    background-color: black;
+    margin: 50px;
+    width: 350px;
+    height: 550px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+header{
+    background-color: black;
+    width: 330px;
+    height: 100px;
+    margin: 0 auto;
+    font-size: larger;
+    color: whitesmoke;
+    text-align: right;
+    font-weight: bolder;
+}
+
+table{
+    background-color: #333;
+    color: whitesmoke;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+td{
+    width: 110px;
+    height: 80px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.orange{
+    color: #0dc706;
+}
+
+td:hover{
+    cursor:pointer ;
+    background-color: rgb(105, 101, 101);
+    border-radius: 20px;
+    
+}
+
+td:active{
+    background-color: lightgray;
+    color: black;
+    border-radius: 20px;
+}

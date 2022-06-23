@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <div>
+        <header id="screen"></header>
+        <table>
+
+        <tbody>
+            <tr class="orange">
+                <td onclick="clearScr()">AC</td>
+                <td onclick="sendNum('/')">/</td>
+                <td onclick="sendNum('*')">×</td>
+                <td onclick="clearScr()">C</td>
+            </tr>
+            <tr>
+                <td onclick="sendNum('7')">7</td>
+                <td onclick="sendNum('8')">8</td>
+                <td onclick="sendNum('9')">9</td>
+                <td onclick="sendNum('-')" class="orange">-</td>
+            </tr>
+            <tr>
+                <td onclick="sendNum('4')">4</td>
+                <td onclick="sendNum('5')">5</td>
+                <td onclick="sendNum('6')">6</td>
+                <td onclick="sendNum('+')" class="orange">+</td>
+            </tr>
+            <tr>
+                <td onclick="sendNum('1')">1</td>
+                <td onclick="sendNum('2')">2</td>
+                <td onclick="sendNum('3')">3</td>
+                <td onclick="equalTo()" rowspan="2" class="orange">=</td>
+            </tr>
+            <tr>
+                <td onclick="sendNum('*0.01')">%</td>
+                <td onclick="sendNum('0')">0</td>
+                <td onclick="sendNum('.')">.</td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+</body>
+</html>
